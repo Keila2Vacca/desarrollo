@@ -26,18 +26,36 @@ const { title } = Astro.props;
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24 
-							stroke-width="1.5"
+							stroke-width="
+							1.5"
 							stroke="currentColor"
-							class="size-6">
+							class="size-6"
+						>
 							<path
 								stroke-linecap="round"
 								stroke-linejoin="round"
 								d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-							/>
+							></path>
 						</svg>
 					</button>
-
-					<p>publicidad</p>
+					
+				</div>
+				<div class="group inline-block relative">
+					<a href="#">publicidad</a>
+					<div class="pt-3 w-32  text-center pb-3 bg-red-500 absolute top-6 group-hover:block hidden absolute">
+						<div class=" absolute bg-red-500 size-4 rotate-45 -top-1 left-2"></div>
+						<p>option1</p>
+						<p>option2</p>
+						<p>option3</p>
+						<p>option4</p>
+						<p>option5</p>
+						<p>option6</p>
+						<p>option7</p>
+						<p>option8</p>
+						<p>option9</p>
+						<p>option10</p>
+						<p>option11</p>
+					</div>
 				</div>
 			</div>
 			<div class="banner"></div>
@@ -57,11 +75,11 @@ const { title } = Astro.props;
 		body {
 			padding: 0;
 			margin: 0;
-			background-color: rgba(235,235,235,255);
+			background-color: rgba(235, 235, 235, 255);
 		}
 		header {
 			height: 80px;
-			background: rgba(255,230,0,255);
+			background: rgba(255, 230, 0, 255);
 			padding-top: 12px;
 		}
 		header img {
@@ -95,8 +113,8 @@ const { title } = Astro.props;
 			height: 280px;
 			background: linear-gradient(
 				to bottom,
-				rgba(255,230,0,255) 60%,
-				rgba(235,235,235,255) 100%
+				rgba(255, 230, 0, 255) 60%,
+				rgba(235, 235, 235, 255) 100%
 			);
 		}
 		.container {
